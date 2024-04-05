@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../assets/gucci/styles.css" />
+    <title>Grizlet</title>
+  </head>
+  <body>
+    <nav class="nav2">
+      <a href="../index.html">Home</a>
+      <a href="./quiz.html">Take a Quiz</a>
+      <a href="./results.html">View Results</a>
+      <a href="./study.html">Study</a>
+      <a href="./flashCards.html">Flash Cards</a>
+    </nav>
+  <div class="div1" >
+    <h1>Begin by picking what subject or subjects you want to be quizzed on</h1>
+    <select id="subjectSelect">
+      <option value="WEBAPI">Web APIs</option>
+      <option value="HTMLquestions">HTML</option>
+      <option value="CSSquestions">CSS</option>
+      <option value="jsQuestions">JavaScript</option>
+      <option value="nodeQuestions">Node and express</option>
+      <option value="MySQLquestions">SQL and sequelize</option>
+      <option value="thirdPartyAPIs">Third Party APIs</option>
+      <option value="serverSideAPIs">Server Side APIs</option>
+    </select>
+    <h1>How many questions would you like to be quizzed on?</h1>
+    <h5>Choose a number between 5 and 50. You will be given 10 seconds for every question selected.</h5>
+    <input type="number" id="questionAmount" placeholder="Pick any number between 5 and 50" min="5" max="50" value="10" />
+    <button id="start">Start Quiz</button>
+    <div id="quiz-container">
+      <div id="question"></div>
+      <ul id="answers"></ul>
+    </div>
+  </div>
+
+<div id="timer">Timer: <span id="time">60</span> seconds</div>
+<div id="score">Correct: 0 | Incorrect: 0</div>
+
+<button onclick="logSavedQuizAttempts()">Log Saved Quiz Attempts</button>
+
+<Script src="../assets/scripture/index.js" ></Script>
+<script src="../assets/scripture/quiz.js"></script>
+</body>

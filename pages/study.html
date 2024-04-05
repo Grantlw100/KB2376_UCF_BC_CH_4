@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="../assets/gucci/styles.css" />
+        <title>Grizlet</title>
+      </head>
+      <body>
+        <nav class="nav2">
+          <a href="../index.html">Home</a>
+          <a href="./quiz.html">Take a Quiz</a>
+          <a href="./results.html">View Results</a>
+          <a href="./study.html">Study</a>
+          <a href="./flashCards.html">Flash Cards</a>
+        </nav>
+        <div class="div1" id="studyGuide">
+            <h1>Lets get some stuidying done</h1>
+            <h2>Begin by picking what subject or subjects you want to study</h2>
+            <select id="subjectSelect">
+              <option value="WEBAPI">Web APIs</option>
+              <option value="HTMLquestions">HTML</option>
+              <option value="CSSquestions">CSS</option>
+              <option value="jsQuestions">JavaScript</option>
+              <option value="nodeQuestions">Node and express</option>
+              <option value="MySQLquestions">SQL and sequelize</option>
+              <option value="thirdPartyAPIs">Third Party APIs</option>
+              <option value="serverSideAPIs">Server Side APIs</option>
+            </select>
+            <button id="start">Start Studying</button>
+        </div>
+        <div id="study-container">
+          <div id="question"></div>
+          <div id="answer">
+            <p id="resource"></p>
+          </div>
+        </div>
+        <button  id="previous">Previous questions</button>
+        <button  id="next">Next questions</button>
+            
+    
+            <script src="../assets/scripture/index.js"></script>
+          <script  src="../assets/scripture/studyGuide.js"></script>
+      </body>

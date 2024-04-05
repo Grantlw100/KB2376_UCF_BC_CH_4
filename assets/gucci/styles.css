@@ -1,0 +1,368 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    background-color: #e4a5eb;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: black;
+    background-color: #e4a5eb;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav p {
+    color: black;
+    border: double 2px black;
+    border-radius: 10px;
+    background-color: #e4a5eb;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    justify-content: center;
+
+}
+
+nav a {
+    color: black;
+    background-color: #e4a5eb;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.5s;
+}
+
+select {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+select:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+option {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor:grab;
+}
+
+button {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+li {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+li:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.question {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    background-color: black;
+    color: #e4a5eb;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}   
+
+.nav2 {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#answers {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#answers:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#timer {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+#score {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+#resultsContainer {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#questionStudy {
+    text-decoration: none;
+}
+
+#clearResults {
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+
+}
+
+.card-title {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.card-title:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card-text {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+#cardBody a {
+    background-color: #e4a5eb;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+#cardBody a:hover {
+    background-color: black;
+    color: #e4a5eb;
+    transition: 0.5s;
+}
+
+.hidden {
+    display: none;
+}
