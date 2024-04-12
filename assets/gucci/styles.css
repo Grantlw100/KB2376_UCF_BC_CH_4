@@ -85,13 +85,10 @@ select {
     font-weight: bolder;
     border: solid 2px black;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto; 
     padding: 5px;
+    width: 90%;        
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 select:hover {
@@ -106,13 +103,8 @@ option {
     color: black;
     font-size: 1.2em;
     font-weight: bolder;
-    border: solid 2px black;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    cursor:grab;
+    padding: 5px; /* Ensure padding is not too large */
+    cursor: grab;
 }
 
 button {
